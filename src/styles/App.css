@@ -1,0 +1,33 @@
+html{
+    font-size: 12px;
+    text-align: center;
+    background-color: aquamarine;
+}
+h1{
+    font-size: 3em;
+    font-weight: 800;
+}
+h3{
+    font-size: 2.5em;
+}
+p,form{
+    font-size: 1.5em;
+}
+.app{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.resume-input{
+    background-color: azure;
+    margin: 0 auto;
+    width: 90%;
+}
+.resume-output{
+    background-color: azure;
+    margin: 0 auto;
+    width: 90%;
+}
+.header{
+    padding: 10px;
+    background-color: rgb(224, 134, 22);
+}
