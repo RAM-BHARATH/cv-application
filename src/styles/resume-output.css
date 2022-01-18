@@ -1,0 +1,35 @@
+.resume-output{
+    display: grid;
+}
+.resume-op-header{
+    background-color: #0c0991;
+    color:#e7e7e7;
+    height: 120px;
+    /* max-height: fit-content; */
+    width: 100%;
+    /* background-color: rgb(240, 201, 144); */
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.name-pos-op{
+    background-color: #0c0991;
+    color:#e7e7e7;
+    /* grid-row: 1/3; */
+    grid-column: 1/2;
+    padding: 20px;
+    text-align: left;
+    
+}
+.pos-op{
+    font-weight: 200;
+}
+.contact-op{
+    background-color:#e7e7e7;
+    color: #0c0991;
+    grid-column: 2/3;
+    padding: 20px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
